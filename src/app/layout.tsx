@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Riza Pahlevi",
   description: "My personal website",
   icons: {
-    icon: "/lp.ico", 
+    icon: "/logo-baru.ico",
   },
 };
 
@@ -27,13 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {/* <Header2></Header2> */}
         {children}
       </body>
     </html>
   );
 }
-

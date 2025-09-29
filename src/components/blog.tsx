@@ -1,14 +1,12 @@
-import React from 'react'
-import Header2 from './mvpblocks/header-2'
-import MinimalHeroBlog from './mvpblocks/minimal-hero-for-blog'
+import React from "react";
+import Header2 from "./mvpblocks/header-2";
+import MinimalHeroBlog from "./mvpblocks/minimal-hero-for-blog";
 
-const Blog = () => {
+export default function Blog() {
   return (
     <div>
-        <Header2/>
-        <MinimalHeroBlog/>
+      <Header2 />
+      <MinimalHeroBlog />
     </div>
-  )
+  );
 }
-
-export default Blog

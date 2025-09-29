@@ -16,7 +16,7 @@ const navItems: NavItem[] = [
   { name: "About-Me", href: "/about" },
   { name: "Blog", href: "/blog" },
   { name: "Project", href: "/project" },
-  { name: "Contact", href: "/contact" },
+  // { name: "Contact", href: "/contact" },
 ];
 
 export default function Header2() {

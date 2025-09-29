@@ -1,6 +1,6 @@
 import React from 'react'
 import Header2 from './mvpblocks/header-2'
-const Header = () => {
+export default function Header() {
   return (
     <div className=''>
         <Header2/>
@@ -8,4 +8,4 @@ const Header = () => {
   )
 }
 
-export default Header
+// export default Header

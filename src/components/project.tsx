@@ -2,7 +2,7 @@ import React from 'react'
 import Header2 from './mvpblocks/header-2'
 import MinimalHeroProject from './mvpblocks/minimal-hero-for-project'
 
-const Project = () => {
+export default function Project  ()  {
   return (
     <div>
       <Header2/>
@@ -10,5 +10,3 @@ const Project = () => {
       </div>
   )
 }
-
-export default Project
